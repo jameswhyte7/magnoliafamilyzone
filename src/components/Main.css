@@ -1,0 +1,48 @@
+.rounded-image {
+  border-radius: 5px; /* Adjust the value as needed */
+}
+
+/* Default styles */
+.btn-gray {
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #e9ecef;
+  padding: 0.3rem 0.6rem; /* Adjust padding for smaller screens */
+}
+
+.btn-text {
+  font-size: 14px; /* Default font size */
+}
+
+.btn-gray:hover {
+  background-color: #cfd8dc;
+  border-color: #cfd8dc;
+}
+
+.navbar {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.product-image {
+  height: 200px; /* Default height */
+  object-fit: cover; /* Ensures the image covers the entire area while preserving aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .btn-sm-sm {
+    font-size: 12px; /* Adjust button font size for smaller screens */
+    padding: 0.25rem 0.5rem; /* Adjust padding for smaller screens */
+    min-width: 60px; /* Set minimum width for better touch usability */
+  }
+
+  .btn-text {
+    font-size: 12px; /* Adjust text size for smaller screens */
+  }
+
+  .product-image {
+    height: 150px; /* Shorter height for smaller screens */
+  }
+}
