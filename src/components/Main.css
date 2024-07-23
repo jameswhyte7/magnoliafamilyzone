@@ -59,7 +59,4 @@ header .mr-2 {
     height: 150px; /* Shorter height for smaller screens */
   }
 
-  header h1 {
-    font-size: 25px;
-  }
 }
