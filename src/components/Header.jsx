@@ -4,10 +4,10 @@ import { FaPhone, FaInstagram } from 'react-icons/fa';
 const Header = () => (
   <header className="bg-primary text-white text-center py-3">
     <div className="header-content">
-      <FaInstagram size="31" className="mr-2"/>
-      <h1 className="mr-2">magnoliafamilyzone</h1>
+      <FaInstagram size="30" className="mr-2"/>
+      <h1>magnoliafamilyzone</h1>
     </div>
-    <div className="mt-3 d-flex justify-content-center align-items-center">
+    <div className="mt-2 d-flex justify-content-center align-items-center">
       <FaPhone size="20" className="mr-2" /> 
       <p className="mb-0">0554886260 / 0508501602</p>
     </div>
