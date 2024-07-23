@@ -1,3 +1,4 @@
+/* Rounded image */
 .rounded-image {
   border-radius: 5px; /* Adjust the value as needed */
 }
@@ -31,6 +32,18 @@
   object-fit: cover; /* Ensures the image covers the entire area while preserving aspect ratio */
 }
 
+/* Custom styles for the header */
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .mr-2 {
+  margin-right: 0.5rem;
+}
+
+/* Media Queries */
 @media (max-width: 768px) {
   .btn-sm-sm {
     font-size: 12px; /* Adjust button font size for smaller screens */
