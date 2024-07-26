@@ -361,6 +361,8 @@ import jeans_boy_16 from './jeans_boy_16.jpg';
 import jeans_boy_17 from './jeans_boy_17.jpg';
 import jeans_boy_18 from './jeans_boy_18.jpg';
 import jeans_boy_19 from './jeans_boy_19.jpg';
+import jeans_girl_1 from './jeans_girl_1.jpg';
+import jeans_girl_2 from './jeans_girl_2.jpg';
 
 
 export const shoes = [
@@ -2018,6 +2020,18 @@ export const undee = [
 ]
 
 export const jeans = [
+    {
+        id: uuidv4(),
+        image: jeans_girl_1,
+        price: 30,
+        category: "Jeans"
+    },
+    {
+        id: uuidv4(),
+        image: jeans_girl_2,
+        price: 30,
+        category: "Jeans"
+    },
     {
         id: uuidv4(),
         image: jeans_boy_1,
