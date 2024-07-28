@@ -1,11 +1,9 @@
-import React from 'react';
-import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import React from "react";
 
 const Footer = () => (
-  <footer className="bg-light text-center py-3">
-    <div className="d-flex justify-content-center">
-      <a href="https://facebook.com" className="mx-2"><FaFacebook size="30" /></a>
-      <a href="https://instagram.com" className="mx-2"><FaInstagram size="30" /></a>
+  <footer className="bg-light d-flex justify-content-center align-items-center py-4">
+    <div className="d-flex justify-content-center align-items-center w-100">
+      <p className="m-0">Powered by AG Software - 0505887272</p>
     </div>
   </footer>
 );
